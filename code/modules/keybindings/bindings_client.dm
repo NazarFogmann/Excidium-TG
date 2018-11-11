@@ -4,6 +4,8 @@
 	set instant = TRUE
 	set hidden = TRUE
 
+	_key = rkeyconvert(_key) //excidium - rebindings
+
 	keys_held[_key] = world.time
 	var/movement = SSinput.movement_keys[_key]
 	if(!(next_move_dir_sub & movement) && !keys_held["Ctrl"])
@@ -34,6 +36,8 @@
 /client/verb/keyUp(_key as text)
 	set instant = TRUE
 	set hidden = TRUE
+
+	_key = rkeyconvert(_key) //excidium - rebindings
 
 	keys_held -= _key
 	var/movement = SSinput.movement_keys[_key]

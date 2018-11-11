@@ -196,9 +196,11 @@ GLOBAL_DATUM_INIT(iconCache, /savefile, new("tmp/iconCache.sav")) //Cache of ico
 	//Some macros remain in the string even after parsing and fuck up the eventual output
 	message = replacetext(message, "\improper", "")
 	message = replacetext(message, "\proper", "")
+	message = up2ph(message) //excidium - localisation
 	if(handle_whitespace)
 		message = replacetext(message, "\n", "<br>")
 		message = replacetext(message, "\t", "[GLOB.TAB][GLOB.TAB]")
+		message = up2ph(message) //excidium - localisation
 
 	if(islist(target))
 		// Do the double-encoding outside the loop to save nanoseconds
@@ -228,7 +230,7 @@ GLOBAL_DATUM_INIT(iconCache, /savefile, new("tmp/iconCache.sav")) //Cache of ico
 			return
 
 		//Send it to the old style output window.
-		SEND_TEXT(C, original_message)
+		SEND_TEXT(C, ph_to_pb(original_message)) //excidium - localisation
 
 		if(!C.chatOutput || C.chatOutput.broken) // A player who hasn't updated his skin file.
 			return
