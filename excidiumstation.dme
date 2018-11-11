@@ -2712,6 +2712,7 @@
 #include "code\modules\zombie\organs.dm"
 #include "excidium\code\__HELPERS\keybindings_rebind.dm"
 #include "excidium\code\__HELPERS\text_ru.dm"
+#include "excidium\code\modules\clothing\clothing.dm"
 #include "interface\interface.dm"
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"
