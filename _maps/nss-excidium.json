@@ -1,0 +1,11 @@
+{
+    "map_name": "NSS Excidium",
+    "map_path": "map_files/NSS-Excidium",
+    "map_file": "NSS-Excidium.dmm",
+    "shuttles": {
+	    "cargo": "cargo_box",
+	    "ferry": "ferry_fancy",
+	    "whiteship": "whiteship_meta",
+	    "emergency": "emergency_meta"
+    }
+}
