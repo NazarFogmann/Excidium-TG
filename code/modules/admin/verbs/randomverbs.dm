@@ -231,6 +231,9 @@
 		if(MUTE_ALL)
 			mute_string = "everything"
 			feedback_string = "Everything"
+		if(MUTE_LOOC) // excidium start - LOOC
+			mute_string = "LOOC"
+			feedback_string = "LOOC" // exicidium end
 		else
 			return
 

@@ -641,6 +641,8 @@
 			log_telecomms(log_text)
 		if(LOG_OOC)
 			log_ooc(log_text)
+		if(LOG_LOOC) // excidium start - LOOC
+			log_looc(log_text) // excidium end
 		if(LOG_ADMIN)
 			log_admin(log_text)
 		if(LOG_ADMIN_PRIVATE)
