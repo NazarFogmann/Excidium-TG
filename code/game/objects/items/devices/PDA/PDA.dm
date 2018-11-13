@@ -174,6 +174,7 @@ GLOBAL_LIST_EMPTY(PDAs)
 		return attack_self(M)
 	return ..()
 
+/* excidium - ensure that old pda UI doesn't show up
 /obj/item/pda/interact(mob/user)
 	if(!user.IsAdvancedToolUser())
 		to_chat(user, "<span class='warning'>You don't have the dexterity to do this!</span>")
@@ -372,7 +373,7 @@ GLOBAL_LIST_EMPTY(PDAs)
 		dat = replacetext(dat, "text-decoration:underline", "text-decoration:none")
 
 	user << browse(dat, "window=pda;size=400x450;border=1;can_resize=1;can_minimize=0")
-	onclose(user, "pda", src)
+	onclose(user, "pda", src)*/
 
 /obj/item/pda/Topic(href, href_list)
 	..()
