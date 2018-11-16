@@ -2725,6 +2725,7 @@
 #include "excidium\code\game\area\Space_Station_13_areas.dm"
 #include "excidium\code\game\machinery\turnstile.dm"
 #include "excidium\code\game\objects\items\cards_ids.dm"
+#include "excidium\code\game\objects\items\devices\PDA\cart.dm"
 #include "excidium\code\game\objects\items\devices\PDA\PDA.dm"
 #include "excidium\code\game\objects\structures\crates_lockers\closets\secure\genpop.dm"
 #include "excidium\code\modules\admin\admin.dm"

@@ -1,6 +1,6 @@
 /obj/item/pda
 	desc = "A portable microcomputer by Thinktronic Systems, LTD. Functionality determined by a preprogrammed ROM cartridge. The screen emits a very quiet hum."
-	icon = 'icons/obj/pda.dmi' // TO DO - new sprites for pda
+	icon = 'excidium/icons/obj/pda.dmi'
 
 /obj/item/pda/interact(mob/user)
 	if(!user.IsAdvancedToolUser())
