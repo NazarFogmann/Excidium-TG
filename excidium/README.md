@@ -20,7 +20,7 @@ All modifications to non-excidium files should be marked.
   - Multi-line messages should start with `// excidium start` and use `/* Multi line message here */` for the message itself
 - Single line changes should have `// excidium` or `// excidium - reason`
 
-If you need to mirror a file, or function into a yog-specific file, please leave behind a comment stating where it went.
+If you need to mirror a file, or function into a excidium-specific file, please leave behind a comment stating where it went.
 
 ```
 // excidium start - Mirrored this function in <file> for <reason>
