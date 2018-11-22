@@ -2739,6 +2739,7 @@
 #include "excidium\code\modules\clothing\clothing.dm"
 #include "excidium\code\modules\jobs\access.dm"
 #include "excidium\code\modules\mob\inventory.dm"
+#include "excidium\code\modules\mob\dead\new_player\new_player.dm"
 #include "excidium\code\modules\mob\living\carbon\give.dm"
 #include "excidium\interface\interface.dm"
 #include "exicidum\code\modules\vending\_vending.dm"
