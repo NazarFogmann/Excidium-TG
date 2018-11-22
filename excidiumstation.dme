@@ -2733,6 +2733,7 @@
 #include "excidium\code\game\objects\structures\crates_lockers\crates.dm"
 #include "excidium\code\game\objects\structures\crates_lockers\closets\secure\genpop.dm"
 #include "excidium\code\modules\admin\admin.dm"
+#include "excidium\code\modules\antagonists\cult\cult_structures.dm"
 #include "excidium\code\modules\atmospherics\environmental\LINDA_turf_tile.dm"
 #include "excidium\code\modules\client\asset_cache.dm"
 #include "excidium\code\modules\client\preferences_toggles.dm"
