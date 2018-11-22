@@ -2741,6 +2741,7 @@
 #include "excidium\code\modules\mob\inventory.dm"
 #include "excidium\code\modules\mob\living\carbon\give.dm"
 #include "excidium\interface\interface.dm"
+#include "exicidum\code\modules\vending\_vending.dm"
 #include "interface\interface.dm"
 #include "interface\menu.dm"
 #include "interface\stylesheet.dm"

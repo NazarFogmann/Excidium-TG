@@ -312,7 +312,7 @@ IF YOU MODIFY THE PRODUCTS LIST OF A MACHINE, MAKE SURE TO UPDATE ITS RESUPPLY C
 			return
 	return ..()
 
-/obj/machinery/vending/ui_interact(mob/user)
+/*/obj/machinery/vending/ui_interact(mob/user) //exicidum start - vending UI
 	var/dat = ""
 	var/datum/bank_account/account
 	var/mob/living/carbon/human/H
@@ -372,7 +372,7 @@ IF YOU MODIFY THE PRODUCTS LIST OF A MACHINE, MAKE SURE TO UPDATE ITS RESUPPLY C
 	var/datum/browser/popup = new(user, "vending", (name))
 	popup.set_content(dat)
 	popup.set_title_image(user.browse_rsc_icon(icon, icon_state))
-	popup.open()
+	popup.open()*/ //excidium end
 
 /obj/machinery/vending/Topic(href, href_list)
 	if(..())
