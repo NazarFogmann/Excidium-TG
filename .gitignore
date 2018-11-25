@@ -4,9 +4,8 @@
 /data/**/*
 /tmp/**/*
 
-#ignore any files in config/, except those in subdirectories.
-/config/*
-!config/**/*/
+#ignore any files in config/ and those in subdirectories.
+/config/**/*/
 
 #Ignore byond config folder.
 /cfg/**/*

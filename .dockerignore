@@ -23,6 +23,11 @@ tgstation.int
 tgstation.rsc
 tgstation.lk
 tgstation.dyn.rsc
+excidiumstation.dmb
+excidiumstation.int
+excidiumstation.rsc
+excidiumstation.lk
+excidiumstation.dyn.rsc
 libmariadb.dll
 rust_g.dll
 BSQL.dll
